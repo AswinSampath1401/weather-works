@@ -1,3 +1,5 @@
+# Check out the Live Site => [Weather Works](https://weather-works.herokuapp.com/)
+
 # How to Run the Project
 - Clone the repo
 - Open the folder in CMD/ Terminal
