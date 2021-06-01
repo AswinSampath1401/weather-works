@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(2, 2, 31); */
+}
+
+.app{
+    background-color: rgba(15, 16, 19, 0.966);
+    min-height: 100vh;
+}
+
+/* header styling start */
+
+/* .header {
+    background-color: rgb(30, 35, 36);
+} */
+
+.header-logo{
+    display: flex;
+    width: 90%;
+    color: white;
+}
+
+.header-logo h1{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+.header-theme{
+    display: flex;
+    justify-content: center;
+}
+
+.header-theme img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+/* header styling ends */
+
+/* Search Box Styling starts */
+
+.search-container {
+    /* background-color: coral; */
+    margin-top: 10px;
+}
+.search-container input{
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;
+    background: gray;
+}
+
+.search-container input:focus{
+    border: 3px solid white;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.search-container input:placeholder-shown{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+/* Search Styling ends */
+
+/* Error Container Styling  */
+.error-container{
+    background-color: #20232C;
+    margin: 20px 0px;
+    border: 10px solid rgb(19, 19, 19);
+    border-radius: 25px;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error-container img{
+    width: 400px;
+    height: 400px;
+}
+/* Error Ends */
+
+/* Weather Data Container */
+.weather-data-container {
+    background-color: rgb(21, 21, 24);
+    /* background-color: #20232C; */
+    margin: 20px 0px;
+    min-height: 65vh;
+    color: white;
+    border: 10px solid rgb(19, 19, 19);
+    border-radius: 25px;
+    min-height: 70vh;
+}
+
+.weather-data-container Table{
+    margin: 10px;
+    width: 99%;
+}
+
+
+.city-description {
+    text-transform: capitalize;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.city-name {
+    text-align: center;
+}
+
+.city-icon{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.country-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td img {
+    margin-left: 5px;
+}
+
+/* Footer styling  */
+
+.footer-container p{
+    text-align: center;
+    font-size: x-large;
+    color: wheat;
+}
+
+.footer-container .social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fb{
+    color: rgb(66, 86, 240);
+}
+
+.fb:hover{
+    color: gray;
+    transition: 0.8s linear;
+}
+
+.insta{
+    color: rgb(240, 80, 80);
+}
+
+.twitter{
+    color: rgb(8, 127, 173);
+}
+
+.github{
+    color: gray;
+}
+.linkedIn{
+    color: rgb(13, 93, 143);
+}
+
