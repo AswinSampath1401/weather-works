@@ -4,10 +4,9 @@ const Error = ({data}) => {
     return (
         <div className='error-container'>
             <img
-            src = 'images/gifs/color_animation-hello_dribble1.gif'
+            src = 'images/gifs/color_animation.gif'
             alt='Loading'
             ></img>
-            {/* <p>404 Not Found</p> */}
         </div>
     )
 }
